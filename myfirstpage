@@ -1,0 +1,32 @@
+<html>
+    <head>
+    <title>Amanda's Website</title>
+    </head>
+    <head>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+    </head>
+    <body>
+    <header>
+        <img class="portrait" src="corg.jpg"/>
+        <h1>Amanda Lu</h1>
+        <h2>TAP TAP TAP </h2>
+    </header>
+    <article>
+        <p>Lorem ipsum dolor sit amet, at diceret posidonium intellegam pri, electram instructior ad cum, dicunt accusam constituto has in. Saepe patrioque mnesarchum per in. Sit an sint paulo, sea eu natum theophrastus. Ei dolorem volutpat cotidieque sea. Te mea dicta utamur aliquip, graecis vivendo corrumpit ei cum. Lorem veniam pri ad, ea vim solet dolore definiebas.</p>
+
+        <p>Mei exerci detraxit ne, adhuc errem vivendo ex est, nam debet ignota no. Ne qui graece scribentur, id tota recteque cum, pro accusam principes comprehensam id. Ad tation deserunt convenire eos, ut vis tractatos ullamcorper conclusionemque, suas alia repudiandae est at. Mazim mollis regione mei ne, id sit odio iusto scripserit, ferri molestie sensibus in vix. Qui iusto ocurreret no, partem graece torquatos mei in. Ex per illud saepe legendos, vel in quem vocent audire, albucius efficiantur mea ne.</p>
+
+        <p>Eam ex intellegat interesset. Platonem cotidieque reprehendunt eam an. His soleat numquam consectetuer ei, virtute volutpat id eos. Ut duo vidit idque appareat, mollis expetenda et nam. Viderer percipit adipisci ad quo, mel cu erat eripuit numquam.</p>
+    </article>
+    <footer>
+        <h2>Contact Me</h2>
+        <div class="links">
+        <a href="https://omfgdogs.com">LinkedIn</a>
+        <a href="https://omfgdogs.com">Github</a>
+        <a href="https://omfgdogs.com">Email</a>
+        <a href="https://omfgdogs.com">Twitter</a>
+        </div>
+    </footer>
+    </body>
+</html>
