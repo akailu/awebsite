@@ -1,7 +1,6 @@
 body{
     margin: 0;
     padding: 0;
-    position: relative;
 }
 header {
     padding: 20px;
@@ -65,8 +64,6 @@ footer {
     background-color: #2CA58D;
     color: #FFF;
     font-family: "Raleway", sans-serif;
-    position: absolute;
-    left: 0 ; right: 0; bottom: 0; 
 }
 footer * {
     max-width: 300px;
@@ -87,5 +84,14 @@ footer h2 {
     color: #D3D0CB;
     text-decoration: none;
 }
-</style>
+
+.bar {
+    padding: 20px;
+    background-color: pink;
+}
+
+.bar h1 {
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
 }
