@@ -81,17 +81,19 @@ footer h2 {
 
 }
 .links a {
-    color: #D3D0CB;
+    color: #FFF;
     text-decoration: none;
 }
 
 .bar {
     padding: 20px;
-    background-color: pink;
+    background-color: #D3D0CB;
+    font-family: "Raleway", sans-serif;
+
 }
 
 .bar h1 {
-    color: white;
+    color: #FFF;
     font-family: 'Raleway', sans-serif;
     text-align: center;
 }
