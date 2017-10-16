@@ -1,0 +1,78 @@
+<!doctype html>
+ <html>
+    <head>
+    <!--Where everything goes-->
+    <title>Amanda's Website</title>
+    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="stylesheet" type="text/css" href="indexstyle.css">
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
+    <body>
+    <header>
+        <a id="amandalu"></a>
+        <img src="photo.jpg" class="portrait" alt ="Photo of Self">
+        <h1>Amanda Lu</h1>
+        <h2>Student of BCIT Geographic Information Systems (GIS) 
+Advanced Diploma</h2>
+    </header>
+    <!--Nav Bar-->
+    <div class="nav">
+        <a id="burger" class="burgermenu">&#x2630;</a>
+       
+        <div id="nav" class="nav-center">
+        <a id ="Home" class="active" href="#amandalu">Home</a>
+        <a href="#Background">About</a>
+        <a href="#Background">Practicum</a>
+        <a href="#Background">Contact</a>
+        </div>
+   </div>
+    <article>
+    <h4>About Me</h4>
+        <p>Amanda Lu is a recent graduate from the University of British Columbia with a Bachelor Degree in Geography (Environment and Sustainability) and French. During her time at UBC she developed a keen interest in GIS, remote sensing, and biogeography. From mapping the growth of the endangered White-headed Woodpecker to mapping Washroom Accessibility in Vancouver, she was able to explore the power of GIS. Amanda is currently in the Advanced Diploma Program at BCIT to further develop her GIS skills to advance her career</p>
+    </article>
+    <div class="background">
+    <h1>Background</h1>
+    <a id="Background"></a>
+    <div class="academics">Academics</div>
+    <ul>
+        <li>Current Student in Advanced GIS Program at BCIT</li>
+        <li>B.A French and Geography (Environment & Sustainability</li>
+    </ul>
+    <div class="practicum">Practicum</div>
+    <ul>
+        <li>Canadian Wildlife Services</li>
+    </ul>
+    <div class="pexperience">Professional Experience</div>
+    <ul>
+        <li>Summer Camp Supervisor at Sparetime Clubhouse</li>
+        <li>After School Care Staff at Sparetime Clubhouse</li>
+        <li>Education and Event Assistant</li>
+    </ul>
+    </div>
+    <div class="bar">
+    <h4>Contact Me</h4>
+   <div class="links">
+    <p>
+        <a href="https://github.com/akailu/">Github</a>
+        <a href="https://www.linkedin.com/in/amanda-lu-714195149/">Linkedin</a>
+        <a href="mailto:&#97;&#108;&#117;&#52;&#53;&#64;&#109;&#121;&#46;&#98;&#99;&#105;&#116;&#46;&#99;&#97;">Email</a>
+        </p>
+    </div>
+    </div>
+    <footer>
+    <!--Javascripting-->
+    <p>
+            <script type ="text/javascript">
+            document.write("Welcome to "+ new Date().getFullYear());
+
+        document.getElementById("burger").addEventListener("click", () => {
+                document.getElementById("nav").classList.toggle("active");
+        })
+
+            </script>
+        </p>
+        <p>&#x2665;</p>
+    </footer>
+    </body>
+</html>
