@@ -37,11 +37,7 @@ header h3 {
 }
 header h4{
     font-size: 20px;
-<<<<<<< HEAD
-    color: #FFF;
-=======
     color: #FFF
->>>>>>> f0da1a428d88644bdad03d098a6c7757dfe4717b
     font-family: "Raleway", sans-serif;
 }
 /* Nav Bar General*/
@@ -65,11 +61,7 @@ header h4{
   font-size: 17px;
 }
 .nav a:hover {
-<<<<<<< HEAD
-  background-color: #eee;
-=======
   background-color: #;
->>>>>>> f0da1a428d88644bdad03d098a6c7757dfe4717b
   color: black;
 }
 
@@ -126,11 +118,7 @@ a.burgermenu {
     text-align: center;
 }
 article {
-<<<<<<< HEAD
-    padding: 80px;
-=======
-    padding: 100px;
->>>>>>> f0da1a428d88644bdad03d098a6c7757dfe4717b
+    padding: 50px;
 }
 article {
     max-width: 850px;
@@ -176,15 +164,34 @@ footer h2 {
 ul {
   font-size: 14px;
   list-style: none;}
+
 .academics, .practicum, .pexperience, .interest {
-<<<<<<< HEAD
-  font-size: 22px;
-=======
   font-size: 22px
->>>>>>> f0da1a428d88644bdad03d098a6c7757dfe4717b
   padding-left:0;
   margin: 0;
 }
 .links {
     justify-content: space-around;
-    margin-bott
+    margin-bottom: 0;
+    text-transform: lowercase;
+
+}
+.links a {
+    color: #FFF;
+    text-decoration: none;
+}
+
+.bar {
+    padding: 2px 30px;
+    background-color: #D3D0CB;
+    font-family: "Raleway", sans-serif;
+    color: #FFF;
+    text-align: right;
+    font-size: 18px;
+}
+
+.bar h1 {
+    color: #FFF;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+}
