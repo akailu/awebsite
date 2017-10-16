@@ -1,0 +1,196 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+header {
+    padding: 10px;
+    text-align: center;
+    background-color: #393e41;
+    color: #FFF;
+}
+header * {
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+header h1 {
+    letter-spacing: .1px;
+    font-size: 40px;
+    text-transform: uppercase;
+}
+header h1, header h2, header h3, header h4{
+    font-family: 'Raleway', sans-serif;
+    line-height: 1.0;
+    color: #FFF;
+}
+header h2 {
+    font-size: 20px;
+    color: #D3D0CB;
+    text-transform: lowercase;
+}
+header h3 {
+    font-size: 20px;
+    color: #FFF;
+    text-transform: lowercase;
+    font-family: "Raleway", sans-serif;
+    background-color: #E7BB41;
+}
+header h4{
+    font-size: 20px;
+    color: #FFF
+    font-family: "Raleway", sans-serif;
+}
+/* Nav Bar General*/
+.nav {
+  font-family: "Raleway", sans-serif;
+  text-transform: lowercase;
+  overflow: hidden;
+  background-color: #E7BB41;
+  text-align: center;
+}
+.nav-center {
+    display: inline-block;
+}
+.nav a {
+  float: left;
+  display: inline-block;
+  color: #eee;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+.nav a:hover {
+  background-color: #;
+  color: black;
+}
+
+a.burgermenu {
+    display: none;
+}
+
+/*creating the nav bar for mobile*/
+
+@media screen and (max-width:680px) {
+    .nav-center {
+        display: none;
+    }
+
+    .nav-center.active {
+        display: inline-block;
+    }
+  .nav a{
+    width: 100%;
+  }
+
+ a.burgermenu{
+    display: block;
+ }
+  
+  header nav, #main, aside {
+                    float: left;
+                    clear: left;
+                    width: 100%;
+                    }
+
+  ul.nav.responsive {position: relative;}
+  
+  ul.nav.responsive li.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  ul.nav.responsive li {
+    float: none;
+    display: inline;
+  }
+  ul.nav.responsive li a {
+    display: block;
+    text-align: left;
+  }
+}
+.portrait {
+    border-radius: 100px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, .1);
+    max-width: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+article {
+    padding: 80px;
+}
+article {
+    max-width: 850px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 18px;
+    line-height: 1.6;
+    font-family: "Raleway", sans-serif;
+}
+article p {
+    margin-bottom: 30px;
+}
+footer {
+    padding: 20px;
+    text-align: center;
+    background-color: #2CA58D;
+    color: #FFF;
+    font-family: "Raleway", sans-serif;
+}
+footer * {
+    max-width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+footer h2 {
+    text-transform: lowercase;
+}
+
+.background {
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 25px;
+  line-height: 1.6;
+  font-family: "Raleway", sans-serif;
+  background-color: #01172F;
+  color:#eee;;
+  padding:25px;
+  text-align:left;
+}
+.background p {
+    margin-bottom: 0px;}
+
+ul {
+  font-size: 14px;
+  list-style: none;}
+.academics, .practicum, .pexperience, .interest {
+  font-size: 22px
+  padding-left:0;
+  margin: 0;
+}
+.links {
+    justify-content: space-around;
+    margin-bottom: 0;
+    text-transform: lowercase;
+
+}
+.links a {
+    color: #FFF;
+    text-decoration: none;
+}
+
+.bar {
+    padding: 2px 30px;
+    background-color: #D3D0CB;
+    font-family: "Raleway", sans-serif;
+    color: #FFF;
+    text-align: right;
+    font-size: 18px;
+}
+
+.bar h1 {
+    color: #FFF;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+}
