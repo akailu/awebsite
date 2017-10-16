@@ -37,7 +37,7 @@ header h3 {
 }
 header h4{
     font-size: 20px;
-    color: #FFF
+    color: #FFF;
     font-family: "Raleway", sans-serif;
 }
 /* Nav Bar General*/
@@ -61,7 +61,7 @@ header h4{
   font-size: 17px;
 }
 .nav a:hover {
-  background-color: #;
+  background-color: #eee;
   color: black;
 }
 
@@ -165,7 +165,7 @@ ul {
   font-size: 14px;
   list-style: none;}
 .academics, .practicum, .pexperience, .interest {
-  font-size: 22px
+  font-size: 22px;
   padding-left:0;
   margin: 0;
 }
